@@ -62,7 +62,7 @@ class JokeState(BaseModel):
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/EbenTheGreat/joke-bot.git
+git clone https://github.com/EbenTheGreat/wittyAI.git
 cd joke-bot
    ```
 
