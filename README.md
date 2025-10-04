@@ -63,7 +63,6 @@ class JokeState(BaseModel):
 ### 1. Clone repository
 ```bash
 git clone https://github.com/EbenTheGreat/wittyAI.git
-cd joke-bot
    ```
 
 ### 2. Set environment variables:
