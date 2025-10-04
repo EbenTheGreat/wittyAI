@@ -1,0 +1,38 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	show_menu(show_menu)
+	writer(writer)
+	critic(critic)
+	show_final_joke(show_final_joke)
+	update_category(update_category)
+	update_language(update_language)
+	reset_jokes(reset_jokes)
+	browse_jokes(browse_jokes)
+	exit_bot(exit_bot)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> show_menu;
+	browse_jokes --> show_menu;
+	critic -.-> exit_bot;
+	critic -.-> show_final_joke;
+	critic -.-> show_menu;
+	critic -.-> writer;
+	reset_jokes --> show_menu;
+	show_final_joke --> show_menu;
+	show_menu -.-> browse_jokes;
+	show_menu -.-> exit_bot;
+	show_menu -.-> reset_jokes;
+	show_menu -.-> update_category;
+	show_menu -.-> update_language;
+	show_menu -.-> writer;
+	update_category --> show_menu;
+	update_language --> show_menu;
+	writer --> critic;
+	exit_bot --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

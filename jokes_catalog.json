@@ -1,0 +1,20 @@
+[
+  {
+    "id": "e790dd1e-f4cb-4b5b-809a-62855256a588",
+    "text": "Why do developers always reboot their laptop? Because they want to 'refresh' the issue.",
+    "category": "general",
+    "timestamp": "2025-10-04T13:05:04.652649"
+  },
+  {
+    "id": "5064becb-d289-4872-9866-84cae3acc976",
+    "text": "A developer walked into a library and asked the librarian, \"Do you have any books on JavaScript and databases?\" The librarian replied, \"I think I have something on SQL here somewhere, but it'll probably require a few async calls to load.\"",
+    "category": "general",
+    "timestamp": "2025-10-04T13:13:53.200661"
+  },
+  {
+    "id": "8c7fb7b4-814c-4e56-aa9f-17a04310545b",
+    "text": "Why do developers name their functions with unnecessary abbreviations and suffixes? Because they're trying to branch out from the norm, but end up forking their own sanity.",
+    "category": "general",
+    "timestamp": "2025-10-04T13:33:52.076282"
+  }
+]
